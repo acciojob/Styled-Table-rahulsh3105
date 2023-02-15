@@ -1,1 +1,21 @@
 /* your code */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    padding: 10px;
+    text-align: left;
+    height: 50px;
+    vertical-align: center;
+  }
+  
+th {
+    background-color: rgba(0, 0, 255, 0.244);
+    
+  }
+
+tr:nth-child(2), tr:nth-child(4) {
+    background-color: lightgrey;
+  }
